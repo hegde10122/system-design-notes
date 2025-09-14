@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prebuild": "node ../generate-index.js && cpx \"../notes/**/*\" ./public/notes"
+    "prebuild": "node ../generate-index.js"
   },
   "eslintConfig": {
     "extends": [
