@@ -38,38 +38,14 @@
 ## 5. Diagrams
 
 ### 🔹 Flowchart Example
-```mermaid
-flowchart TD
-    Client --> LoadBalancer
-    LoadBalancer --> Server1
-    LoadBalancer --> Server2
-    Server1 --> DB[(Database)]
-    Server2 --> DB[(Database)]
-```
+![Mermaid Diagram](/notes/diagrams/02-abstractions-1.svg)
 ---
 
 ### 🔹 Sequence Diagram Example
-```mermaid
-sequenceDiagram
-    participant User
-    participant API
-    participant DB
-    User->>API: Send request
-    API->>DB: Query data
-    DB-->>API: Return results
-    API-->>User: Response
-```
+![Mermaid Diagram](/notes/diagrams/02-abstractions-2.svg)
 ---
 
 ### 🔹 Architecture Block Example
-```mermaid
-flowchart LR
-    A[Mobile App] --> B[API Gateway]
-    B --> C[Service 1]
-    B --> D[Service 2]
-    C --> E[(SQL Database)]
-    D --> F[(Object Storage)]
-    B --> G[Cache Layer]
-```
+![Mermaid Diagram](/notes/diagrams/02-abstractions-3.svg)
 ---
 
