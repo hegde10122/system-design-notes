@@ -2,9 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 
-const notesDir = path.join(__dirname, "notes"); // source Markdown
-const publicNotesDir = path.join(__dirname, "web/public/notes");
-const diagramsDir = path.join(publicNotesDir, "diagrams");
+const notesDir = path.join(__dirname, "../notes"); // source Markdown
+const publicNotesDir = path.join(__dirname, "./public/notes");
+const diagramsDir = path.join(publicNotesDir, "./public/notes/diagrams");
 const indexFile = path.join(publicNotesDir, "notes-index.json");
 
 // Ensure folders exist

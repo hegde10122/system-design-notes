@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prebuild": "node ../generate-index.js",
+    "prebuild": "node generate-index.js",
     "watch-notes": "chokidar '../notes/**/*.md' -c 'npm run build'"
   },
   "eslintConfig": {
